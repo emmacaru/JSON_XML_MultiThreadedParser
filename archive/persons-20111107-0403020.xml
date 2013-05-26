@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<persons>
+	<person>
+		<first>Dziewonski</first>
+		<last>Wechsler</last>
+		<location>Winther</location>
+	</person>
+	<person>
+		<first>Lynch</first>
+		<last>Hazen</last>
+		<location>Winther</location>
+	</person>
+	<person>
+		<first>Fernandes</first>
+		<last>Callas</last>
+		<location>Winther</location>
+	</person>
+	<person>
+		<first>Galison</first>
+		<last>Roof</last>
+		<location>Winther</location>
+	</person>	
+</persons>

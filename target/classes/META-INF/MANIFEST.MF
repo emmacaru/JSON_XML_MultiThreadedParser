@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Built-By: ecaruana
+Build-Jdk: 1.7.0_09
+Main-Class: com.peopleCO.processor.main.MainRunner
+Created-By: Maven Integration for Eclipse
+

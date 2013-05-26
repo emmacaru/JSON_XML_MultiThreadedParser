@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.peopleCO.processor.hibernate.data.ProcessedFiles" table="processed_files" catalog="persons">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="filename" type="string">
+            <column name="filename" not-null="true" />
+        </property>
+        <property name="filetype" type="byte">
+            <column name="filetype" not-null="true" />
+        </property>
+        <set name="personDatas" table="person_data" inverse="true" lazy="true" fetch="select" cascade="save-update">
+            <key>
+                <column name="processed_file_id" not-null="true" />
+            </key>
+            <one-to-many class="com.peopleCO.processor.hibernate.data.PersonData" />
+        </set>
+    </class>
+</hibernate-mapping>
