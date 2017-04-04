@@ -1,5 +1,3 @@
-commit 3
-
 -- MySQL dump 10.13  Distrib 5.1.61, for debian-linux-gnu (i486)
 --
 -- Host: localhost    Database: population
