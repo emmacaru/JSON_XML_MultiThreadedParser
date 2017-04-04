@@ -6,7 +6,7 @@ commit 3
 -- ------------------------------------------------------
 -- Server version	5.1.61-0ubuntu0.10.04.1
 
-commit 4
+
 DROP DATABASE IF EXISTS `persons`;
 CREATE DATABASE `persons`;
 
