@@ -8,7 +8,6 @@ commit 1
 	<name>fileProcessor</name>
 	<packaging>jar</packaging>
 
-commit 2
 
 	<dependencies>
 			<dependency>
